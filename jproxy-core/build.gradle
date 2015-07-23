@@ -22,7 +22,8 @@ sourceCompatibility=1.8
 dependencies {
     compile 'com.googlecode.json-simple:json-simple:1.1',
             'org.projectlombok:lombok:1.14.4',
-            'com.codahale.metrics:metrics-core:3.0.2'
+            'com.codahale.metrics:metrics-core:3.0.2',
+            'com.google.inject:guice:3.0'
 }
 
 task wrapper(type: Wrapper) {
